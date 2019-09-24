@@ -1,0 +1,36 @@
+.movie-list-container {
+	margin: 0 auto;
+	margin-top: 40px;
+}
+
+.movie-table-container {
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+.editable-row .ant-form-explain {
+	position: absolute;
+	font-size: 12px;
+	margin-top: -4px;
+}
+
+.movie-form-row {
+	margin-bottom: 20px;
+}
+
+.movie-form-row input {
+	margin-bottom: 4px;
+}
+
+.add-movie-form-button {
+	width: 100%;
+}
+
+.add-movie-form-button[disabled],
+.add-movie-form-button[disabled]:hover,
+.add-movie-form-button[disabled]:focus {
+	opacity: 0.6;
+	color: #fff;
+	background-color: #1890ff;
+	border-color: #1890ff;
+}

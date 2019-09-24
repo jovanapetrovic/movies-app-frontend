@@ -1,0 +1,54 @@
+.cv-poll-option {
+    position: relative;
+    margin-bottom: 8px;
+}
+
+.cv-poll-option-details {
+    position: relative;
+    z-index: 1;
+    display: block;
+    line-height: 1.7;
+    font-size: 15px;
+    padding-left: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    max-width: 100%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.cv-option-percentage {
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.75);
+}
+
+.cv-option-text {
+    margin-left: 10px;
+    display: inline-block;
+    vertical-align: bottom;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.selected-option-icon {
+    margin-left: 10px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.75);
+}
+
+.cv-option-percent-chart {
+    position: absolute;
+    background: #e1e8ed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    border-radius: 0.35em;
+    transition: all 0.3s cubic-bezier(0.5, 1.2, 0.5, 1.2);
+    opacity: 1;
+}
+
+.cv-option-percent-chart.winner {
+    background-color: #77c7f7;
+}
