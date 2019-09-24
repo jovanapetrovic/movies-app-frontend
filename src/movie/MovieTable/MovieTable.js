@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import './Movies.css';
-import EditableRow from './EditableRow';
-import EditableCell from './EditableCell';
+import './MovieTable.css';
+import EditableRow from '../EditableRow/EditableRow';
+import EditableCell from '../EditableCell/EditableCell';
 import { Table, Input, Popconfirm, Button, Icon } from 'antd';
 import { connect } from 'react-redux';
-import { removeMovie, editMovie } from '../store/actions/movies';
+import { removeMovie, editMovie } from '../../store/actions/movies';
 import { withRouter } from 'react-router-dom';
 
 export const EditableContext = React.createContext();

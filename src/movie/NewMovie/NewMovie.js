@@ -17,9 +17,9 @@ import {
   MOVIE_RATING_MIN,
   MOVIE_RATING_MAX,
   MOVIE_COMMENT_MAX_LENGTH
-} from '../constants';
-import { addMovie } from '../store/actions/movies';
-import './Movies.css';
+} from '../../constants';
+import { addMovie } from '../../store/actions/movies';
+import './NewMovie.css';
 
 const { TextArea } = Input;
 const Option = Select.Option;

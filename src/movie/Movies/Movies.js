@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { Row, Col, Button } from 'antd';
-import NewMovie from './NewMovie';
-import MovieTable from './MovieTable';
-import { getMovies } from '../store/actions/movies';
-import { getCategories } from '../store/actions/categories';
+import NewMovie from '../NewMovie/NewMovie';
+import MovieTable from '../MovieTable/MovieTable';
+import { getMovies } from '../../store/actions/movies';
+import { getCategories } from '../../store/actions/categories';
 import './Movies.css';
 
 class Movies extends Component {

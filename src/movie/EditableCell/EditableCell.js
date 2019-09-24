@@ -1,6 +1,5 @@
 import React, { Component } from "react";
-import "./Movies.css";
-import { EditableContext } from "./MovieTable";
+import { EditableContext } from "../MovieTable/MovieTable";
 import { Input, InputNumber, Form } from "antd";
 
 const FormItem = Form.Item;

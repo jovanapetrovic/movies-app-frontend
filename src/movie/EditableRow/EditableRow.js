@@ -1,6 +1,6 @@
 import React from "react";
 import { Form } from "antd";
-import { EditableContext } from "./MovieTable";
+import { EditableContext } from "../MovieTable/MovieTable";
 
 const EditableRow = ({ form, index, ...props }) => (
 	<EditableContext.Provider value={form}>

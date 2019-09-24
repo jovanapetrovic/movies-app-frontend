@@ -7,7 +7,7 @@ import { loadCurrentUser, logoutUser } from './store/actions/auth';
 
 import Polls from './poll/Polls';
 import NewPoll from './poll/NewPoll';
-import Movies from './movie/Movies';
+import Movies from './movie/Movies/Movies';
 import Login from './user/Login';
 import Register from './user/Register';
 import Profile from './user/Profile';
